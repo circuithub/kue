@@ -14,9 +14,11 @@ html
   body
     != partial('menu')
     #actions
+      span=user.displayName
       != partial('search')
       != partial('filter')
       != partial('sort')
+      a(href="/logout") Logout
     #content!= body
     script(type='text/template')#job-template!= partial('job')
     script(type='text/template')#row-template!= partial('row')
