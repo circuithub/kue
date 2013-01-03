@@ -1,4 +1,16 @@
 
+0.5.0 / 2012-11-16 
+==================
+
+  * add POST /job to create a job
+  * fix /job/search hang
+
+0.4.2 / 2012-11-08 
+==================
+
+  * Revert "Fix delay() not really delaying"
+  * Revert "If a job with a delay has more attempts, honor the original delay"
+
 0.4.1 / 2012-09-25 
 ==================
 
